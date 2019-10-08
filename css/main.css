@@ -1,0 +1,12 @@
+html{
+  background-image: url("../images/starfield.png");
+  background-repeat: no-repeat;
+}
+
+h1, figcaption {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
