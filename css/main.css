@@ -1,12 +1,24 @@
 html{
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+
+.content {
   background-image: url("../images/starfield.png");
   background-repeat: no-repeat;
 }
 
-h1, figcaption {
-  font-family: "Ubuntu", sans-serif;
+figure > figcaption {
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
-p {
-  font-family: "Ubuntu Condensed", sans-serif;
+.btn-ghost, figcaption {
+  border-color: #90ccc3;
+  color: #90ccc3;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  border-color: #b4fff4;
+  background-color: rgba(180, 255, 244, .2);
 }
